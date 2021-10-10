@@ -15,7 +15,7 @@ public class MenuManager : MonoBehaviour
     }
     public void mainmenu()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("MainMenu");
     }
     public void retry()
     {
