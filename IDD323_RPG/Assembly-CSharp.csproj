@@ -53,18 +53,19 @@
     <UnityVersion>2020.3.18f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\MenuManager.cs" />
-    <Compile Include="Assets\Code\FollowPlayer.cs" />
-    <Compile Include="Assets\Code\BGM.cs" />
-    <Compile Include="Assets\Code\Prologue\Topdown_Player.cs" />
-    <Compile Include="Assets\Code\Start_level.cs" />
-    <Compile Include="Assets\Code\CH1\Chad_Weapon.cs" />
-    <Compile Include="Assets\Code\CH1\EnemyInDungeon.cs" />
-    <Compile Include="Assets\Code\GameManager.cs" />
-    <Compile Include="Assets\Code\CH1\Chad_Player.cs" />
-    <Compile Include="Assets\Code\CH1\PickUpItem.cs" />
-    <Compile Include="Assets\Code\CH1\Destroy.cs" />
     <Compile Include="Assets\Code\CH1\Enemy_Weapon.cs" />
+    <Compile Include="Assets\Code\Share_Code\MenuManager.cs" />
+    <Compile Include="Assets\Code\CH1\EnemyInDungeon.cs" />
+    <Compile Include="Assets\Code\Share_Code\Start_level.cs" />
+    <Compile Include="Assets\Code\Share_Code\FollowPlayer.cs" />
+    <Compile Include="Assets\Code\CH1\PickUpItem.cs" />
+    <Compile Include="Assets\Code\Share_Code\BGM.cs" />
+    <Compile Include="Assets\Code\CH1\Chad_Weapon.cs" />
+    <Compile Include="Assets\Code\CH1\Chad_Player.cs" />
+    <Compile Include="Assets\Code\Prologue\Topdown_Player.cs" />
+    <Compile Include="Assets\Code\CH1\Destroy.cs" />
+    <Compile Include="Assets\Code\Share_Code\InteractWithNPC.cs" />
+    <Compile Include="Assets\Code\Share_Code\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

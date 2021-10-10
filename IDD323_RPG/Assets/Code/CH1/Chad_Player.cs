@@ -8,6 +8,7 @@ public class Chad_Player : MonoBehaviour
     public float movespeed = 10;
     public float rotationspeed = 10;
     public Rigidbody2D rigid;
+    public GameObject Win;
 
     void Start()
     {
@@ -46,4 +47,11 @@ public class Chad_Player : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Finish"))
+        {
+            Win.SetActive(true);
+        }
+    }
 }

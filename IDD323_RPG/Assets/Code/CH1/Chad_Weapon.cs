@@ -9,7 +9,7 @@ public class Chad_Weapon : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             GetComponent<AudioSource>().Play();
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }

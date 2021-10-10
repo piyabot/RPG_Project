@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Prologue/Chad.unity
     guid: 4f9dae033a0b5ad4e96e14518b3827af
   - enabled: 1
+    path: Assets/Scenes/CH1/Chad_CH1.unity
+    guid: d775caefd8773d34ab2b0953194f75e2
+  - enabled: 1
     path: Assets/Scenes/Prologue/Normie.unity
     guid: 6f08a1593d61950419559616a6aa0d8f
   m_configObjects: {}
