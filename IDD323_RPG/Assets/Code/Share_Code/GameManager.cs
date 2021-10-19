@@ -6,12 +6,17 @@ public class GameManager : MonoBehaviour
 {
     public List<GameObject> item_list = new List<GameObject>();
     public GameObject Door;
+    public GameObject Hide;
 
     void Start()
     {
-        foreach (GameObject enemies in GameObject.FindGameObjectsWithTag("HL"))
+        foreach (GameObject item in GameObject.FindGameObjectsWithTag("Item"))
         {
-            item_list.Add(enemies);
+            item_list.Add(item);
+        }
+        foreach (GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            item_list.Add(enemy);
         }
     }
 
@@ -27,6 +32,7 @@ public class GameManager : MonoBehaviour
         if (item_list.Count <= 0)
         {
             Door.SetActive(true);
+            Hide.SetActive(false);
         }
     }
 }

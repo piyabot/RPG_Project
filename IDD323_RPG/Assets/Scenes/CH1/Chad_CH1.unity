@@ -1764,7 +1764,7 @@ GameObject:
   - component: {fileID: 487852923}
   m_Layer: 0
   m_Name: HL (5)
-  m_TagString: HL
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2310,7 +2310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movespeed: 16
-  rotationspeed: 999999
+  rotationspeed: 500
   rigid: {fileID: 538256039}
   Win: {fileID: 2088659662}
 --- !u!50 &538256039
@@ -2606,7 +2606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &555769558
 Transform:
   m_ObjectHideFlags: 0
@@ -3069,7 +3069,7 @@ GameObject:
   - component: {fileID: 711766719}
   m_Layer: 0
   m_Name: HL
-  m_TagString: HL
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3595,7 +3595,7 @@ GameObject:
   - component: {fileID: 783281283}
   m_Layer: 0
   m_Name: HL (3)
-  m_TagString: HL
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4152,6 +4152,7 @@ GameObject:
   - component: {fileID: 902537897}
   - component: {fileID: 902537898}
   - component: {fileID: 902537899}
+  - component: {fileID: 902537900}
   m_Layer: 0
   m_Name: Fog_Gate
   m_TagString: Untagged
@@ -4234,7 +4235,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4250,6 +4251,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &902537900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902537896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccce7cd8d60a5b34ebbc85e720128214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scene: 0
 --- !u!1 &933916908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4587,7 +4601,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1164016134
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4747,7 +4761,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1242437951}
   - component: {fileID: 1242437953}
-  - component: {fileID: 1242437952}
   m_Layer: 0
   m_Name: BGM
   m_TagString: Untagged
@@ -4769,14 +4782,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &1242437952
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1242437950}
-  m_Enabled: 1
 --- !u!82 &1242437953
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5021,7 +5026,7 @@ GameObject:
   - component: {fileID: 1310310260}
   m_Layer: 0
   m_Name: HL (2)
-  m_TagString: HL
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5925,7 +5930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1584027894
 Transform:
   m_ObjectHideFlags: 0
@@ -6044,7 +6049,7 @@ GameObject:
   - component: {fileID: 1615377589}
   m_Layer: 0
   m_Name: HL (4)
-  m_TagString: HL
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7001,7 +7006,7 @@ GameObject:
   - component: {fileID: 2056851900}
   m_Layer: 0
   m_Name: HL (1)
-  m_TagString: HL
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

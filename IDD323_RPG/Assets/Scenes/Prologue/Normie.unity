@@ -262,8 +262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -440, y: -29}
-  m_SizeDelta: {x: 711.6482, y: 711.65}
+  m_AnchoredPosition: {x: -390, y: -29}
+  m_SizeDelta: {x: 1163.405, y: 711.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752275975
 MonoBehaviour:
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 668db21ecb80ddb4e9c445ff487540e2, type: 3}
+  m_Texture: {fileID: 2800000, guid: 467e4deb74903154b8ce2628e0a64033, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -318,7 +318,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dcc49ca4032c1c04f945f2e001ebf6f6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: efa99d1c1e217964497d07f4648a6709, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.6
   m_Pitch: 1
@@ -624,7 +624,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Born as "NORMIE"
+  m_text: You are FASTEST SPERM !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -758,9 +758,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '" You choose to born like everyone. You start with nothing special. Talentless
-    at the beginning so it depend on you to surrender or fight for your destiny to
-    become Q U A L I T Y person. "'
+  m_text: '" You are the first sperm that can reach overy to initiate fertilization.
+    So you born like eveyone else nothing special. "'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -823,7 +822,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -64.7738, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

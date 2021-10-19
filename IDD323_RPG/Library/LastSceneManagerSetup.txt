@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CH1/Chad_CH1.unity
+- path: Assets/Scenes/Prologue/FightToBorn.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

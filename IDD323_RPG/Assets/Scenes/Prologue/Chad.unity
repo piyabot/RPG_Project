@@ -414,7 +414,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1257320192}
   - component: {fileID: 1257320191}
-  - component: {fileID: 1257320190}
   - component: {fileID: 1257320193}
   m_Layer: 0
   m_Name: Main Camera
@@ -423,14 +422,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1257320190
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257320189}
-  m_Enabled: 1
 --- !u!20 &1257320191
 Camera:
   m_ObjectHideFlags: 0
@@ -624,7 +615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Born as "CHAD"
+  m_text: You reject the Ovary !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -894,7 +885,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next Chapter
+  m_text: Back to main menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1056,7 +1047,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1257320193}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
-        m_MethodName: nextlevel
+        m_MethodName: mainmenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

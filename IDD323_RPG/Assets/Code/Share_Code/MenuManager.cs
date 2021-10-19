@@ -7,7 +7,15 @@ public class MenuManager : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("Prologue");
+        SceneManager.LoadScene("Select_Adventure");
+    }
+    public void Sperm()
+    {
+        SceneManager.LoadScene("Sperm_Adventure");
+    }
+    public void LoadScene(int scene)
+    {
+        SceneManager.LoadScene(scene);
     }
     public void exit()
     {
