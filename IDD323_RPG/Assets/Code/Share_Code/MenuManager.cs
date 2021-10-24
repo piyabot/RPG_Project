@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-    public void Play()
-    {
-        SceneManager.LoadScene("Select_Adventure");
-    }
     public void Sperm()
     {
         SceneManager.LoadScene("Sperm_Adventure");
+    }
+    public void Dungeon()
+    {
+        SceneManager.LoadScene("Dungeon_adventure");
     }
     public void LoadScene(int scene)
     {

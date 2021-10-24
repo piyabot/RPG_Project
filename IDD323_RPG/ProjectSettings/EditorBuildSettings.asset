@@ -9,21 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Select_Adventure.unity
-    guid: dc8695bdeb2e345439a51682058904a4
-  - enabled: 1
-    path: Assets/Scenes/Prologue/Sperm_Adventure.unity
+    path: Assets/Scenes/Sperm Adventure/Sperm_Adventure.unity
     guid: 233f823d65cf81642b352dae94f5b175
   - enabled: 1
-    path: Assets/Scenes/Prologue/Chad.unity
+    path: Assets/Scenes/Sperm Adventure/Chad.unity
     guid: 4f9dae033a0b5ad4e96e14518b3827af
   - enabled: 1
-    path: Assets/Scenes/Prologue/FightToBorn.unity
+    path: Assets/Scenes/Sperm Adventure/FightToBorn.unity
     guid: 686063e3b3639064384786dd584a9e53
   - enabled: 1
-    path: Assets/Scenes/Prologue/Fight_End.unity
+    path: Assets/Scenes/Sperm Adventure/Fight_End.unity
     guid: ab62cea18705934458e23a470a98f195
   - enabled: 1
-    path: Assets/Scenes/Prologue/Normie.unity
+    path: Assets/Scenes/Sperm Adventure/Normie.unity
     guid: 6f08a1593d61950419559616a6aa0d8f
   m_configObjects: {}
