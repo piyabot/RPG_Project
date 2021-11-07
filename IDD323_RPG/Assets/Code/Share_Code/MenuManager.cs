@@ -33,4 +33,12 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void SpermLose()
+    {
+        SceneManager.LoadScene("Sperm_Lose");
+    }
+    public void DungeonLose()
+    {
+        SceneManager.LoadScene("Dungeon_Lose");
+    }
 }
