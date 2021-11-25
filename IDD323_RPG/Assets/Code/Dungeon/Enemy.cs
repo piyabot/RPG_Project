@@ -48,6 +48,7 @@ public class Enemy : MonoBehaviour
         if (collision.CompareTag("One"))
         {
             Destroy(gameObject);
+
         }
     }
 }

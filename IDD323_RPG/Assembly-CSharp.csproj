@@ -68,6 +68,8 @@
     <Compile Include="Assets\Code\Dungeon\Chad_Player.cs" />
     <Compile Include="Assets\Code\Prologue\Sperm.cs" />
     <Compile Include="Assets\Code\Dungeon\Destroy.cs" />
+    <Compile Include="Assets\Code\Share_Code\NPCvsBullet.cs" />
+    <Compile Include="Assets\Code\Obstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -8,6 +8,7 @@ public class Sperm : MonoBehaviour
     public float movespeed = 10;
     public float rotationspeed = 10;
     public Rigidbody2D rigid;
+    public GameObject Cheat;
 
     void Start()
     {
@@ -44,6 +45,10 @@ public class Sperm : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("Main_menu");
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            Destroy(Cheat);
         }
     }
 

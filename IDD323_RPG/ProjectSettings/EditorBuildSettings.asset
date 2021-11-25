@@ -9,36 +9,30 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Sperm Adventure/Sperm_Adventure.unity
-    guid: 233f823d65cf81642b352dae94f5b175
+    path: Assets/Scenes/Credit.unity
+    guid: d7cb0a87ca9a55e4983200e22da1cb34
   - enabled: 1
-    path: Assets/Scenes/Sperm Adventure/Chad.unity
-    guid: 4f9dae033a0b5ad4e96e14518b3827af
-  - enabled: 1
-    path: Assets/Scenes/Sperm Adventure/FightToBorn.unity
-    guid: 686063e3b3639064384786dd584a9e53
-  - enabled: 1
-    path: Assets/Scenes/Sperm Adventure/Fight_End.unity
-    guid: ab62cea18705934458e23a470a98f195
-  - enabled: 1
-    path: Assets/Scenes/Sperm Adventure/Normie.unity
-    guid: 6f08a1593d61950419559616a6aa0d8f
-  - enabled: 1
-    path: Assets/Scenes/Dungeon Adventure/Dungeon_adventure.unity
+    path: Assets/Scenes/Dungeon_adventure.unity
     guid: d775caefd8773d34ab2b0953194f75e2
   - enabled: 1
-    path: Assets/Scenes/Dungeon Adventure/Fight_Arena.unity
+    path: Assets/Scenes/Fight_Arena.unity
     guid: 373d88a834ddf084eb13d426442222de
   - enabled: 1
-    path: Assets/Scenes/Dungeon Adventure/Escape.unity
+    path: Assets/Scenes/Die.unity
+    guid: b95fd6deaf241d24eafa8c62f68f93ca
+  - enabled: 1
+    path: Assets/Scenes/Sperm_Adventure.unity
+    guid: 233f823d65cf81642b352dae94f5b175
+  - enabled: 1
+    path: Assets/Scenes/Chad.unity
+    guid: 4f9dae033a0b5ad4e96e14518b3827af
+  - enabled: 1
+    path: Assets/Scenes/Normie.unity
+    guid: 6f08a1593d61950419559616a6aa0d8f
+  - enabled: 1
+    path: Assets/Scenes/Escape.unity
     guid: 01fab4d3a5d138140860f6abaf4f1829
   - enabled: 1
-    path: Assets/Scenes/Dungeon Adventure/End_Dungeon.unity
-    guid: 60a00b147e607ad429b62c3641e521ae
-  - enabled: 1
-    path: Assets/Scenes/Sperm Adventure/Sperm_Lose.unity
-    guid: 528f1020642393a4eb1d9cdd12dd998f
-  - enabled: 1
-    path: Assets/Scenes/Dungeon Adventure/Dungeon_Lose.unity
-    guid: 8d98edae7e3884043933c25fd83152aa
+    path: Assets/Scenes/SneakEscape.unity
+    guid: 96903f0ee3796a448969f934a745660d
   m_configObjects: {}

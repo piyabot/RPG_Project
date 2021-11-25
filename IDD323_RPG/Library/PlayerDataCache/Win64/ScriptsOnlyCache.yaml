@@ -11,6 +11,8 @@ ScriptsOnlyBuild:
     - GameManager
     - InteractWithNPC
     - MenuManager
+    - NPCvsBullet
+    - Obstacle
     - Racer
     - Shooting
     - Sperm
@@ -51,7 +53,121 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.RawImage
   sceneClasses:
-    Assets/Scenes/Dungeon Adventure/Dungeon_Lose.unity:
+    Assets/Scenes/Chad.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1536}
+    - Class: 114
+      Script: {instanceID: 1836}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2638}
+    - Class: 114
+      Script: {instanceID: 2800}
+    - Class: 114
+      Script: {instanceID: 2806}
+    - Class: 114
+      Script: {instanceID: 2848}
+    - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3380}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Credit.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1536}
+    - Class: 114
+      Script: {instanceID: 1836}
+    - Class: 114
+      Script: {instanceID: 2396}
+    - Class: 114
+      Script: {instanceID: 2638}
+    - Class: 114
+      Script: {instanceID: 2800}
+    - Class: 114
+      Script: {instanceID: 2806}
+    - Class: 114
+      Script: {instanceID: 2848}
+    - Class: 114
+      Script: {instanceID: 3022}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3380}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Die.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -106,7 +222,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Dungeon Adventure/Dungeon_adventure.unity:
+    Assets/Scenes/Dungeon_adventure.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -171,6 +287,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5294}
     - Class: 114
       Script: {instanceID: 5596}
+    - Class: 114
+      Script: {instanceID: 54362}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,60 +307,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Dungeon Adventure/End_Dungeon.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1536}
-    - Class: 114
-      Script: {instanceID: 1836}
-    - Class: 114
-      Script: {instanceID: 2638}
-    - Class: 114
-      Script: {instanceID: 2800}
-    - Class: 114
-      Script: {instanceID: 2806}
-    - Class: 114
-      Script: {instanceID: 2848}
-    - Class: 114
-      Script: {instanceID: 3022}
-    - Class: 114
-      Script: {instanceID: 3266}
-    - Class: 114
-      Script: {instanceID: 3380}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Dungeon Adventure/Escape.unity:
+    Assets/Scenes/Escape.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -297,7 +362,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Dungeon Adventure/Fight_Arena.unity:
+    Assets/Scenes/Fight_Arena.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -406,8 +471,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2216}
     - Class: 114
-      Script: {instanceID: 2396}
-    - Class: 114
       Script: {instanceID: 2638}
     - Class: 114
       Script: {instanceID: 2800}
@@ -441,7 +504,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Sperm Adventure/Chad.unity:
+    Assets/Scenes/Normie.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -498,78 +561,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Sperm Adventure/FightToBorn.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 50
-      Script: {instanceID: 0}
-    - Class: 61
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1536}
-    - Class: 114
-      Script: {instanceID: 1836}
-    - Class: 114
-      Script: {instanceID: 2638}
-    - Class: 114
-      Script: {instanceID: 2800}
-    - Class: 114
-      Script: {instanceID: 2806}
-    - Class: 114
-      Script: {instanceID: 2848}
-    - Class: 114
-      Script: {instanceID: 2896}
-    - Class: 114
-      Script: {instanceID: 3022}
-    - Class: 114
-      Script: {instanceID: 3266}
-    - Class: 114
-      Script: {instanceID: 3320}
-    - Class: 114
-      Script: {instanceID: 3380}
-    - Class: 114
-      Script: {instanceID: 3670}
-    - Class: 114
-      Script: {instanceID: 4078}
-    - Class: 114
-      Script: {instanceID: 5484}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Sperm Adventure/Fight_End.unity:
+    Assets/Scenes/SneakEscape.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -624,64 +616,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/Sperm Adventure/Normie.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1536}
-    - Class: 114
-      Script: {instanceID: 1836}
-    - Class: 114
-      Script: {instanceID: 2396}
-    - Class: 114
-      Script: {instanceID: 2638}
-    - Class: 114
-      Script: {instanceID: 2800}
-    - Class: 114
-      Script: {instanceID: 2806}
-    - Class: 114
-      Script: {instanceID: 2848}
-    - Class: 114
-      Script: {instanceID: 3022}
-    - Class: 114
-      Script: {instanceID: 3266}
-    - Class: 114
-      Script: {instanceID: 3380}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Sperm Adventure/Sperm_Adventure.unity:
+    Assets/Scenes/Sperm_Adventure.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -717,6 +652,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2800}
     - Class: 114
+      Script: {instanceID: 2806}
+    - Class: 114
       Script: {instanceID: 2848}
     - Class: 114
       Script: {instanceID: 3022}
@@ -725,19 +662,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3320}
     - Class: 114
-      Script: {instanceID: 3592}
+      Script: {instanceID: 3380}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 3592}
     - Class: 114
       Script: {instanceID: 4078}
     - Class: 114
       Script: {instanceID: 4332}
     - Class: 114
-      Script: {instanceID: 5064}
-    - Class: 114
       Script: {instanceID: 5484}
     - Class: 114
-      Script: {instanceID: 5596}
+      Script: {instanceID: 158820}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -747,61 +682,6 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/Sperm Adventure/Sperm_Lose.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1536}
-    - Class: 114
-      Script: {instanceID: 1836}
-    - Class: 114
-      Script: {instanceID: 2638}
-    - Class: 114
-      Script: {instanceID: 2800}
-    - Class: 114
-      Script: {instanceID: 2806}
-    - Class: 114
-      Script: {instanceID: 2848}
-    - Class: 114
-      Script: {instanceID: 3022}
-    - Class: 114
-      Script: {instanceID: 3266}
-    - Class: 114
-      Script: {instanceID: 3380}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1246,7 +1126,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: ab5b86d109077cb13f53411e12e76e8e
+      Hash: 2c62e28621c03c1a54bdbc3f1857aa56
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Racer
@@ -1324,7 +1204,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
-      Hash: 6c01557270a50fa62ea6a9ada7ae2080
+      Hash: 07b6d1280073f7f654c295c14e5d771e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InteractWithNPC
@@ -1366,7 +1246,7 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: c84fd31b6d7b83de0614561554698ffd
+      Hash: 4a43638c2da2a2e7adeae752dc23c74e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Chad_Player
@@ -1384,7 +1264,7 @@ ScriptsOnlyBuild:
     className: SignalEmitter
   - hash:
       serializedVersion: 2
-      Hash: 78b5f2b06f7700f2ddd1dad0da0d81e8
+      Hash: b4ebc56d138781f6ae7739a160952b9e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Sperm
@@ -1418,18 +1298,29 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 47e9856de5dda8c45ef68fcff8de9f3c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NPCvsBullet
+  - hash:
+      serializedVersion: 2
+      Hash: 2c62e28621c03c1a54bdbc3f1857aa56
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Obstacle
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/Sperm Adventure/Sperm_Adventure.unity
-  - Assets/Scenes/Sperm Adventure/Chad.unity
-  - Assets/Scenes/Sperm Adventure/FightToBorn.unity
-  - Assets/Scenes/Sperm Adventure/Fight_End.unity
-  - Assets/Scenes/Sperm Adventure/Normie.unity
-  - Assets/Scenes/Dungeon Adventure/Dungeon_adventure.unity
-  - Assets/Scenes/Dungeon Adventure/Fight_Arena.unity
-  - Assets/Scenes/Dungeon Adventure/Escape.unity
-  - Assets/Scenes/Dungeon Adventure/End_Dungeon.unity
-  - Assets/Scenes/Sperm Adventure/Sperm_Lose.unity
-  - Assets/Scenes/Dungeon Adventure/Dungeon_Lose.unity
-  playerPath: D:/University/Game Design/RPG/Build/THE ADVENTURE.exe
+  - Assets/Scenes/Credit.unity
+  - Assets/Scenes/Dungeon_adventure.unity
+  - Assets/Scenes/Fight_Arena.unity
+  - Assets/Scenes/Die.unity
+  - Assets/Scenes/Sperm_Adventure.unity
+  - Assets/Scenes/Chad.unity
+  - Assets/Scenes/Normie.unity
+  - Assets/Scenes/Escape.unity
+  - Assets/Scenes/SneakEscape.unity
+  playerPath: D:/University/Game Design/RPG/Build/2021_1_IDD323_Project#02_RPGGame_THE
+    ADVENTURE_Piyaboot Prayong/THE ADVENTURE.exe

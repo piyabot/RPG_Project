@@ -11,7 +11,7 @@ public class Chad_Player : MonoBehaviour
     public Camera cam;
     public GameObject Win;
     public GameObject Hide;
-
+    public GameObject Cheat;
 
     Vector2 movement;
     Vector2 mousePos;
@@ -36,6 +36,10 @@ public class Chad_Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             SceneManager.LoadScene("Main_menu");
+        }
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            Destroy(Cheat);
         }
     }
 }

@@ -7,13 +7,13 @@ public class Racer : MonoBehaviour
     private Rigidbody2D rigid;
     private Transform player;
     private float speed = 35.9f;
-    public GameObject Fight;
+    public GameObject Lose;
     public GameObject Hide;
 
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Two").transform;
+        player = GameObject.FindGameObjectWithTag("One").transform;
     }
     void FixedUpdate()
     {
@@ -24,10 +24,10 @@ public class Racer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Two"))
+        if (collision.CompareTag("One"))
         {
             Destroy(gameObject);
-            Fight.SetActive(true);
+            Lose.SetActive(true);
             Hide.SetActive(false);
         }
     }

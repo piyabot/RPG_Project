@@ -7,6 +7,7 @@ public class InteractWithNPC : MonoBehaviour
     public GameObject Dia1;
     public GameObject Dia2;
     public GameObject Dia3;
+    public GameObject Dia4;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("One"))
@@ -32,6 +33,14 @@ public class InteractWithNPC : MonoBehaviour
         else
         {
             Dia3.SetActive(false);
+        }
+        if (collision.CompareTag("Four"))
+        {
+            Dia4.SetActive(true);
+        }
+        else
+        {
+            Dia4.SetActive(false);
         }
     }
 }
