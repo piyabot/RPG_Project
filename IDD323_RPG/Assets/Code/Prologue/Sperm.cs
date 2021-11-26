@@ -44,7 +44,7 @@ public class Sperm : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Main_menu");
+            SceneManager.LoadScene("MainMenu");
         }
         if (Input.GetKeyDown(KeyCode.O))
         {
@@ -56,11 +56,11 @@ public class Sperm : MonoBehaviour
     {
         if (collision.CompareTag("One"))
         {
-            SceneManager.LoadScene("Chad");
+            SceneManager.LoadScene("Normie");
         }
         if (collision.CompareTag("Two"))
         {
-            SceneManager.LoadScene("Normie");
+            SceneManager.LoadScene("Chad");
         }
     }
 }

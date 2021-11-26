@@ -35,7 +35,7 @@ public class Chad_Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Main_menu");
+            SceneManager.LoadScene("MainMenu");
         }
         if (Input.GetKeyDown(KeyCode.O))
         {
